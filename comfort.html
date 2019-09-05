@@ -154,33 +154,27 @@
 
     <p> You can also view <a href=“https://www.linkedin.com/in/comfort-abraham-065b03104”> My Linkedin Profile </a> </p>
 
-    
-    <div id="after_submit"></div>
-    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-
-      <div class="row">
-        <label class="required" for="name">Your name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-      </div>
     <div class="container">
-
       <form action="action_page.php">
 
-        <label for="fname">Your Name</label>
-        <input type="text" id="yname" name="your name" placeholder="first name last name..."/><br />
+        <label for="yname">Your Name</label>
+        <input type="text" id="yname" name="yourname" placeholder="Firstname Lastname.." minlength="4"><br />
+  
 
-        <label for="email">Valid Email</label>
-        <input id="text" id="email" name="email" placeholder="abccomes@..."/><br />
+        <label for="email">Valid email</label>
+        <input type="text" id="email" name="email" placeholder="abc123comes@..."><br />
+        <span id="text_validation" class="error_message"></span>
 
-        <label for="title">Tiltle</label><br />
-        <input type="text" id="title" name="title" placeholder="    ..."/><br />
+
+        <label for="title">Title</label><br />
+        <input type="text" id="title" name="title" placeholder="   ..."><br />
 
         <label for="message">Message</label><br />
-        <input type="text" id="message" name="message" placeholder="write something..."/><br />
+        <textarea id="subject" name="subject" placeholder="Write something.." minlength="20" style="height:100px"></textarea>
+          <input type="submit" value="Submit">
 
-      </form>
-     
+</form>
+</div>
 
-    </div>
-</body>
+</body>     
 </html>
