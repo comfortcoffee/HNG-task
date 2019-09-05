@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+<html id="pagebackground">
+  <link rel="stylesheet" type="text/css" href="style.css">
 <head>
 
 <title>COMFORT ABRAHAM RESUME</title>
@@ -10,13 +11,15 @@
 
 <h1>Comfort Abraham</h1>
 
-  <img src="https://res.cloudinary.com/comfort-coffee/image/upload/v1566671093/2A86178C-59D5-457F-A1AD-76EEE6551B94_plhv6p.jpg">
 
-<p> 31 Abayomi Street Surulere, Lagos <p/>
+  <img src="https://res.cloudinary.com/comfort-coffee/image/upload/v1567162850/2A86178C-59D5-457F-A1AD-76EEE6551B94_plhv6p.jpg">
+<p> 31 Abayomi Street Surulere, Lagos </p>
 
 <p> abrahamcomfort@yahoo.com, 
-07061679991<p/>
+07061679991</p>
+</div>
 
+<div class="data">
 <u><b>PERSONAL DATA</u></b>
 
  <ul>
@@ -30,7 +33,8 @@
    <li><b>Sex:</b> Female</li>
 
  </ul>
-
+  </div>
+  
 <u><b>PERSONAL PROFILE</u></b>
 
   <!—Proficient relationship manager—>Bi-lingual and good with numbers with focus on establishing strategic objectives, compliance and due dilligence.
@@ -150,5 +154,33 @@
 
     <p> You can also view <a href=“https://www.linkedin.com/in/comfort-abraham-065b03104”> My Linkedin Profile </a> </p>
 
+    
+    <div id="after_submit"></div>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+
+      <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      </div>
+    <div class="container">
+
+      <form action="action_page.php">
+
+        <label for="fname">Your Name</label>
+        <input type="text" id="yname" name="your name" placeholder="first name last name..."/><br />
+
+        <label for="email">Valid Email</label>
+        <input id="text" id="email" name="email" placeholder="abccomes@..."/><br />
+
+        <label for="title">Tiltle</label><br />
+        <input type="text" id="title" name="title" placeholder="    ..."/><br />
+
+        <label for="message">Message</label><br />
+        <input type="text" id="message" name="message" placeholder="write something..."/><br />
+
+      </form>
+     
+
+    </div>
 </body>
 </html>
